@@ -1,6 +1,6 @@
 #Yii2 basic htaccess
 root/.htaccess:
-```sh
+```htaccess
 <IfModule mod_rewrite.c>
     Options +FollowSymlinks
     RewriteEngine On
