@@ -1,6 +1,6 @@
 #Yii2 basic htaccess
 root/.htaccess:
-```
+```sh
 <IfModule mod_rewrite.c>
     Options +FollowSymlinks
     RewriteEngine On
@@ -18,7 +18,7 @@ root/.htaccess:
 </IfModule> 
 ```
 root/web/.htaccess:
-```
+```sh
 # Если это папка или файл, открываем его
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
@@ -26,7 +26,7 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . index.php
 ```
 root/config/web.php:
-```
+```php
 'request' => [
     'baseUrl' => '',
 ],
