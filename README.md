@@ -8,6 +8,10 @@ root/.htaccess:
  
 <IfModule mod_rewrite.c>
     RewriteCond %{REQUEST_URI} ^/.*
+    #RewriteRule ^assets/(.*)$ /web/assets/$1 [L]
+    #RewriteRule ^css/(.*)$ web/css/$1 [L]
+    #RewriteRule ^js/(.*)$ web/js/$1 [L]
+    #RewriteRule ^images/(.*)$ web/images/$1 [L]
     RewriteRule ^(.*)$ web/$1 [L]
 
     RewriteCond %{REQUEST_URI} !^/web/
