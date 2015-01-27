@@ -3,9 +3,5 @@
     "description": "Yii 2 Basic Basic Htaccess",
     "keywords": ["yii2", "basic", "htaccess"],
     "type": "project",
-    "license": "BSD-3-Clause",
-    "minimum-stability": "stable",
-    "require": {
-        "php": ">=5.4.0"
-    }
+    "license": "BSD-3-Clause"
 }
