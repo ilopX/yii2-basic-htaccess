@@ -1,12 +1,12 @@
 {
-    "name": "ilopx/yii2-basic-htaccess",
-    "description": "Yii 2 Basic Basic Htaccess",
-    "keywords": ["yii2", "basic", "htaccess"],
-    "type": "yii2-extension",
-    "type": "project",
-    "license": "BSD-3-Clause",
-    "minimum-stability": "dev"
-    	"require": {
+	"name": "ilopx/yii2-basic-htaccess",
+	"description": "Yii 2 Basic Basic Htaccess",
+	"keywords": ["yii2", "basic", "htaccess"],
+	"type": "yii2-extension",
+	"type": "project",
+	"license": "BSD-3-Clause",
+	"minimum-stability": "dev",
+	"require": {
 		"yiisoft/yii2": "*"
 	}
 }
