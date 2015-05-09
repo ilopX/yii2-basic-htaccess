@@ -2,7 +2,7 @@
 root/.htaccess:
 ```
 <IfModule mod_rewrite.c>
-    Options +FollowSymlinks
+    Options +SymLinksIfOwnerMatch
     RewriteEngine On
 </IfModule>
  
