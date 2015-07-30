@@ -1,4 +1,5 @@
 #Yii2 basic htaccess
+## 1. step
 root/.htaccess:
 ```
 <IfModule mod_rewrite.c>
@@ -20,6 +21,7 @@ root/.htaccess:
     RewriteRule ^.*$ web/index.php
 </IfModule> 
 ```
+## 2. step 
 root/web/.htaccess:
 ```
 # Если это папка или файл, открываем его
@@ -28,6 +30,7 @@ RewriteCond %{REQUEST_FILENAME} !-d
 # В противном случае перенаправляем на index.php
 RewriteRule . index.php
 ```
+## 3. step
 root/config/web.php:
 ```php
 'request' => [
@@ -40,9 +43,5 @@ root/config/web.php:
         '' => 'site/index',
         '<action>'=>'site/<action>',
     ],
-],
-'assetManager' => [
-    'basePath' => '@webroot/assets',
-    'baseUrl' => '@web/assets'
-],
+]
 ```
