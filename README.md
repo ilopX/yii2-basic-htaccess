@@ -3,7 +3,7 @@
 ![Demo](https://github.com/ilopX/yii2-basic-htaccess/blob/master/example.png)
 
 ## Automatic setting
-Download and run file yii2-basic-htaccess.php
+Download file [yii2-basic-htaccess.php](https://github.com/ilopX/yii2-basic-htaccess/blob/master) and put to root yii application and run
 
 ## Manual setting
 ### 1. step
