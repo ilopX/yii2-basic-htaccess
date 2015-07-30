@@ -11,7 +11,7 @@ This method created .htaccess files automatically and clear self.
 + Follow [step 3 in Manual setting](#3-step) 
 
 ### Video Demo
-[![Video Demo](http://img.youtube.com/vi/0sxqNaznhlc/0.jpg)](http://www.youtube.com/watch?v=0sxqNaznhlc)
+[![Video Demo](http://img.youtube.com/vi/0sxqNaznhlc/1.jpg)](http://www.youtube.com/watch?v=0sxqNaznhlc)
 
 ## b. Manual setting
 ### 1. step
