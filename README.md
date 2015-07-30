@@ -1,6 +1,5 @@
 #Yii2 basic htaccess
 
-Inline-style: 
 ![Demo](https://github.com/ilopX/yii2-basic-htaccess/blob/master/example.png)
 
 ## Automatic setting
