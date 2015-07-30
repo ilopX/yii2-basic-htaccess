@@ -6,10 +6,9 @@
 This method created .htaccess files automatically and clear self.
 
 + Download file [index.php](https://raw.githubusercontent.com/ilopX/yii2-basic-htaccess/master/index.php) 
-+ Put to root yii2 application and.
-+ Start http//{your_yii2_webapp}
-+ Follow step 3 in Manual setting
-
++ Put to root yii2 application
++ Start http://{your_yii2_webapp}
++ Follow [step 3 in Manual setting](#3-step) 
 
 ## b. Manual setting
 ### 1. step
