@@ -24,10 +24,8 @@
 ## 2. step 
 ### root/web/.htaccess:
 ```
-# Если это папка или файл, открываем его
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-# В противном случае перенаправляем на index.php
 RewriteRule . index.php
 ```
 ## 3. step
