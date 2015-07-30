@@ -19,3 +19,6 @@ file_put_contents('web/.htaccess',
 'RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . index.php');
+
+unlink(__FILE__);
+header("Location: " . "http://" . $_SERVER['HTTP_HOST']);

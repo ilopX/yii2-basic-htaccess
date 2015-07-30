@@ -3,7 +3,8 @@
 ![Demo](https://github.com/ilopX/yii2-basic-htaccess/blob/master/example.png)
 
 ## Automatic setting
-Download file [yii2-basic-htaccess.php](https://github.com/ilopX/yii2-basic-htaccess/blob/master) and put to root yii application and run
+Download file [yii2-basic-htaccess.php](https://raw.githubusercontent.com/ilopX/yii2-basic-htaccess/master/index.php) 
+and put to root yii2 application and start http//{your_yii2_webapp}. This script created .htaccess files automatically and clear self
 
 ## Manual setting
 ### 1. step
