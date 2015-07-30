@@ -1,0 +1,16 @@
+{
+    "name": "ilopx/yii2-basic-htaccess",
+    "description": "yii2-basic-htaccess",
+    "authors": [
+        {
+            "name": "ilopx",
+            "email": "ilopx@ukr.net"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "PhilipBrown\\Nacho\\": "src"
+        }
+    }
+}
