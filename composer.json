@@ -1,16 +1,16 @@
 {
     "name": "ilopx/yii2-basic-htaccess",
-    "description": "yii2-basic-htaccess",
     "authors": [
         {
             "name": "ilopx",
             "email": "ilopx@ukr.net"
         }
     ],
+    "minimum-stability": "stable",
     "require": {},
     "autoload": {
-        "psr-4": {
-            "PhilipBrown\\Nacho\\": "src"
+        "psr-0": {
+            "HelloWorld": "src/"
         }
     }
 }
