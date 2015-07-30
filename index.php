@@ -1,4 +1,5 @@
 <?php
+
 file_put_contents('.htaccess',
 '<IfModule mod_rewrite.c>
     Options +FollowSymlinks
@@ -22,3 +23,5 @@ RewriteRule . index.php');
 
 unlink(__FILE__);
 header("Location: " . "http://" . $_SERVER['HTTP_HOST']);
+
+
