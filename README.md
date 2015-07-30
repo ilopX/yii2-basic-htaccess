@@ -1,6 +1,14 @@
 #Yii2 basic htaccess
-## 1. step
-### create file {root}/.htaccess:
+
+Inline-style: 
+![Demo](https://github.com/ilopX/yii2-basic-htaccess/blob/master/example.png)
+
+## Automatic setting
+Download and run file yii2-basic-htaccess.php
+
+## Manual setting
+### 1. step
+#### create file {root}/.htaccess:
 ```
 <IfModule mod_rewrite.c>
     Options +FollowSymlinks
@@ -17,15 +25,15 @@
     RewriteRule ^.*$ web/index.php
 </IfModule> 
 ```
-## 2. step 
-### create file {root}/web/.htaccess:
+### 2. step 
+#### create file {root}/web/.htaccess:
 ```
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . index.php
 ```
-## 3. step
-### update file {root}/config/web.php:
+### 3. step
+#### update file {root}/config/web.php:
 ```php
 'request' => [
     'baseUrl' => '',
