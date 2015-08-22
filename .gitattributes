@@ -1,8 +1,8 @@
 {root} export-ignore
 test export-ignore
-.gitignore
-.gitattributes
-composer.json
-example.png
-README.md
+.gitignore export-ignore
+.gitattributes export-ignore
+composer.json export-ignore
+example.png export-ignore
+README.md export-ignore
 
