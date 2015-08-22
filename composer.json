@@ -11,7 +11,7 @@
   ],
   "autoload":{
     "psr-4":{
-      "ilopx\\yii2basichtaccess\\": "src/"
+      "ilopx\\yii2basichtaccess\\": "vendor/ilopx/yii2-basic-htaccess"
     }
   },
   "post-package-install": [
