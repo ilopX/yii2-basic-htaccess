@@ -16,6 +16,10 @@ file_put_contents('.htaccess',
     RewriteRule ^.*$ web/index.php
 </IfModule>');
 
+if (!is_dir('web')){
+    mkdir('web');
+}
+
 file_put_contents('web/.htaccess',
 'RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d

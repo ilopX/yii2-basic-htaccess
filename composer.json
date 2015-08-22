@@ -1,0 +1,20 @@
+{
+  "name": "ilopx/yii2-basic-htaccess",
+  "description": "Set web directory in webroot",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "ilopX",
+      "email": "ilopX@ukr.net"
+    }
+  ],
+  "autoload":{
+    "psr-4":{
+      "ilopx\\yii2basichtaccess\\": "src/"
+    }
+  },
+  "post-package-install": [
+    "ilopx\\yii2basichtaccess\\Install::postInstallCmd"
+  ]
+}
