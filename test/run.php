@@ -1,59 +1,38 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: XTreme.ws
+ * User: ilopX
  * Date: 22.08.2015
  * Time: 19:09
  */
 
-include_once '../vendor/autoload.php';
 
-use ilopx\yii2basichtaccess\Install;
+include_once 'Util.php';
 
+$util = new Util();
+$util->runIndexFile();
 
-function clear(){
-    $files = [
-        'index.php',
-        '.htaccess',
-        'web\.htaccess'
-    ];
-
-    foreach($files as $file){
-        if (file_exists($file))
-            unlink($file);
-    }
-
-    foreach($files as $file){
-        if (is_dir($dir = dirname($file)) && $dir != '.')
-            rmdir($dir);
-    }
-}
-
-clear();
-
-$install = new Install();
-$install->postInstallCmd();
-
-if (file_exists('index.php')){
-    throw new Exception("File \"index.php\" not self clear");
+if (file_exists(__DIR__.'\index.php')){
+    $util->error("File \"index.php\" not self clear");
 }else{
-    echo "clear /web/.htaccess -> ok\n";
+    $util->ok('Self clear "index.php"');
 }
 
 if (!file_exists('.htaccess')){
-    throw new Exception("File \"{root}/.htaccess\" not created\n");
+    $util->error("File \"\\.htaccess\" not created");
 }
 else{
-    echo "create /.htaccess -> ok\n";
+    $util->ok("Create file \"\\.htaccess\"");
 }
 
 if (!file_exists('web/.htaccess')){
-    throw new Exception("File \"{root}/web/.htaccess\" not created\n");
+    $util->error("File \"\\web\\.htaccess\" not created");
 }
 else{
-    echo "create /web/.htaccess -> ok\n";
+    $util->ok("Create file \"\\web\\.htaccess\"");
 }
 
-echo "All -> ok\n";
-clear();
+$util->ok("All");
+
+$util->clear();
 

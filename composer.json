@@ -8,13 +8,5 @@
       "name": "ilopX",
       "email": "ilopX@ukr.net"
     }
-  ],
-  "autoload":{
-    "psr-4":{
-      "ilopx\\yii2basichtaccess\\": "vendor/ilopx/yii2-basic-htaccess"
-    }
-  },
-  "post-package-install": [
-    "ilopx\\yii2basichtaccess\\Install::postInstallCmd"
   ]
 }
