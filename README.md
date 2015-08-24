@@ -8,7 +8,7 @@
 ## a. Automatic setting [index.php](https://cdn.rawgit.com/ilopX/yii2-basic-htaccess/master/index.php)
 This method created .htaccess files automatically and clear self.
 
-+ Download file [index.php](https://cdn.rawgit.com/ilopX/yii2-basic-htaccess/master/index.php)
++ Download file [index.php](https://cdn.rawgit.com/ilopX/yii2-basic-htaccess/master/index.php) or composer require ilopx/yii2-basic-htaccess
 + Put to root yii2 application
 + Start http://{your_yii2_webapp}
 + Follow [step 3 in Manual setting](#3-step) 
