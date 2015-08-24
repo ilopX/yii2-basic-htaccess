@@ -1,5 +1,4 @@
 <?php
-
 file_put_contents('.htaccess', <<<END
 <IfModule mod_rewrite.c>
     Options +FollowSymlinks
