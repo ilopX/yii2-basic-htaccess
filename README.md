@@ -2,16 +2,16 @@
 
 ![Demo](https://github.com/ilopX/yii2-basic-htaccess/blob/master/example.png)
 
-## a. Automatic setting
+## Video Demo
+[![Video Demo](http://img.youtube.com/vi/0sxqNaznhlc/0.jpg)](http://www.youtube.com/watch?v=0sxqNaznhlc)
+
+## a. Automatic setting [index.php](https://cdn.rawgit.com/ilopX/yii2-basic-htaccess/master/index.php)
 This method created .htaccess files automatically and clear self.
 
-+ Download file [**index.php**](https://cdn.rawgit.com/ilopX/yii2-basic-htaccess/master/index.php) or **composer require ilopx/yii2-basic-htaccess**
++ Download file [index.php](https://cdn.rawgit.com/ilopX/yii2-basic-htaccess/master/index.php)
 + Put to root yii2 application
 + Start http://{your_yii2_webapp}
 + Follow [step 3 in Manual setting](#3-step) 
-
-### Video Demo
-[![Video Demo](http://img.youtube.com/vi/0sxqNaznhlc/1.jpg)](http://www.youtube.com/watch?v=0sxqNaznhlc)
 
 ## b. Manual setting
 ### 1. step
@@ -32,6 +32,7 @@ This method created .htaccess files automatically and clear self.
     RewriteRule ^.*$ web/index.php
 </IfModule> 
 ```
+
 ### 2. step 
 #### create file {root}/web/.htaccess:
 ```
